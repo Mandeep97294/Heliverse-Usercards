@@ -9,7 +9,7 @@ const TeamDetails = () => {
       <h2>Team Details</h2>
       <ul>
         {team.map((user) => (
-          <li key={user.id}>{user.name} - {user.domain}</li>
+          <li key={user.id}>{user.first_name} - {user.domain}</li>
         ))}
       </ul>
     </div>
